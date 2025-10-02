@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>allintegrations_factories</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiClient\ApiClient.csproj" />
+    <ProjectReference Include="..\common-abstractions-core\common-abstractions-core.csproj" />
+    <ProjectReference Include="..\common-abstractions-std\common-abstractions-std.csproj" />
+    <ProjectReference Include="..\core\core.csproj" />
+    <ProjectReference Include="..\core_abstractions\core_abstractions.csproj" />
+    <ProjectReference Include="..\core_birokrat\core_birokrat.csproj" />
+    <ProjectReference Include="..\core_birokrat_abstractions\core_birokrat_abstractions.csproj" />
+    <ProjectReference Include="..\gui_inferable\gui_inferable.csproj" />
+  </ItemGroup>
+
+</Project>

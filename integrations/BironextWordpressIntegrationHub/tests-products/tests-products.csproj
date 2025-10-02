@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>tests_products</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\biro-to-woo-common\biro-to-woo-common.csproj" />
+    <ProjectReference Include="..\biro-to-woo-single\biro-to-woo-single.csproj" />
+    <ProjectReference Include="..\core\core.csproj" />
+    <ProjectReference Include="..\tests-abstractions\tests-abstractions.csproj" />
+    <ProjectReference Include="..\tests-orders\tests-orders.csproj" />
+    <ProjectReference Include="..\transfer_data\transfer_data.csproj" />
+  </ItemGroup>
+
+</Project>

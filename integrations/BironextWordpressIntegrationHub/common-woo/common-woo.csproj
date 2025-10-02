@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>common_woo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\biro-to-woo-common\biro-to-woo-common.csproj" />
+    <ProjectReference Include="..\core\core.csproj" />
+  </ItemGroup>
+
+</Project>

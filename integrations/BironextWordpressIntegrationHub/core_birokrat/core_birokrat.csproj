@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="common-birokrat\sifranti\artikel_accessor\51qmdwkk.iep~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\birowoo-exceptions\birowoo-exceptions.csproj" />
+    <ProjectReference Include="..\core_abstractions\core_abstractions.csproj" />
+    <ProjectReference Include="..\core_birokrat_abstractions\core_birokrat_abstractions.csproj" />
+    <ProjectReference Include="..\gui_inferable\gui_inferable.csproj" />
+  </ItemGroup>
+
+</Project>

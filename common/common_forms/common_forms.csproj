@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Controls\DarkButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DarkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DarkComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DarkListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DarkRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\AnnoyingYesNoPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DisplayBoxWithComboBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DisplayBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\InputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\OverlayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\birolang_parser\birolang_parser.csproj" />
+    <ProjectReference Include="..\bironext_autocredentials\bironext_autocredentials.csproj" />
+    <ProjectReference Include="..\pdf-handling\pdf-handling.csproj" />
+    <ProjectReference Include="..\task_assigner\assigned_tasks_abstractions.csproj" />
+    <ProjectReference Include="..\transfer_data\transfer_data.csproj" />
+  </ItemGroup>
+
+</Project>

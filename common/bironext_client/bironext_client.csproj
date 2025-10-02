@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>bironext_client</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiClient.utils\ApiClient.utils.csproj" />
+    <ProjectReference Include="..\common_excel_tools\common_excel_tools.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "webshop_client_woocommerce": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56295;http://localhost:56296"
+    }
+  }
+}

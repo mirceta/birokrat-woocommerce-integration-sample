@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\allintegrations\allintegrations.csproj" />
+    <ProjectReference Include="..\core_abstractions\core_abstractions.csproj" />
+    <ProjectReference Include="..\gui_generator\gui_generator.csproj" />
+    <ProjectReference Include="..\gui_generator_integs\gui_generator_integs.csproj" />
+    <ProjectReference Include="..\webshop_client_abstractions\webshop_client_abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

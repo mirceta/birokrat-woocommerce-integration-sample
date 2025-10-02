@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "birowoo-exceptions": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53384;http://localhost:53385"
+    }
+  }
+}

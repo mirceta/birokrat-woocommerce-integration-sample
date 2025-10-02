@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>tests_exec_dynamictask</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\tests-abstractions\tests-abstractions.csproj" />
+    <ProjectReference Include="..\transfer_data_abstractions\transfer_data_abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

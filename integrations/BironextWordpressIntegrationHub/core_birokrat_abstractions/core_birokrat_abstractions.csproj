@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\common\ApiClient.utils\ApiClient.utils.csproj" />
+    <ProjectReference Include="..\birowoo-exceptions\birowoo-exceptions.csproj" />
+    <ProjectReference Include="..\gui_inferable\gui_inferable.csproj" />
+    <ProjectReference Include="..\webshop_struct\webshop_struct.csproj" />
+  </ItemGroup>
+
+</Project>

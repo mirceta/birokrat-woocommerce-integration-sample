@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>tests_tasks</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\common-birowoo\common-birowoo.csproj" />
+    <ProjectReference Include="..\core\core.csproj" />
+    <ProjectReference Include="..\products_to_excel\products_to_excel.csproj" />
+    <ProjectReference Include="..\tests-abstractions\tests-abstractions.csproj" />
+    <ProjectReference Include="..\tests-bootstrapping\tests-bootstrapping.csproj" />
+    <ProjectReference Include="..\tests-fixed-exec\tests-exec-fixedtask.csproj" />
+    <ProjectReference Include="..\tests-orders\tests-orders.csproj" />
+    <ProjectReference Include="..\tests-products\tests-products.csproj" />
+    <ProjectReference Include="..\validator\validator.csproj" />
+  </ItemGroup>
+
+</Project>

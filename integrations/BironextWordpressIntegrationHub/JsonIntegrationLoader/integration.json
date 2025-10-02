@@ -1,0 +1,97 @@
+{
+  "BiroCredentials": {
+    "ApiKey": "vs/rjL57PpbVlbHcLoud/RBDmfO19wW+IiqwP2CuOaI="
+  },
+  "WooCredentials": {
+    "Address": "https://poledancerka.belvgdev.com/",
+    "Ck": "ck_f5e89f3fb3a23dadb2e84c559eb94847b0078b4a",
+    "Cs": "cs_23f79b73ff593ede6bd37db33d332e9172caff9f",
+    "Version": "wc/v3"
+  },
+  "WooToBiro": {
+    "CountryMapper": {
+
+    },
+    "OnArticleAdded": {
+
+    },
+    "OnArticleChanged": {
+
+    },
+    "OnOrderStatusChanged": {
+      "OrderFlow": ""
+    },
+    "OnAttachmentRequest": {
+      "OrderFlow": ""
+    }
+  },
+  "BiroToWoo": {
+    "OnArticleAdded": {
+
+    },
+    "OnArticleChanged": {
+
+    }
+  },
+  "Dependencies": {
+    "OrderFlows": {
+      "NAME1": {
+        "Conditions": {
+          "Status": [ "processing" ],
+          "PaymentType": null
+        },
+        "PartnerCreationCountryMapper": "COUNTRY_MAPPER",
+        "FlowSequence": [
+          {
+            "Type": "DocumentInsertion",
+            "Params": {
+              "DocumentType": "racun",
+              "Mapper": "COMPOSITE_MAPPER",
+              "OperationsOnPostavke": [
+                {
+                  "Type": "CommentAddVarAttrs"
+                },
+                {
+                  "Type": "CouponPercent"
+                },
+                {
+                  "Type": "CouponFixedCart"
+                },
+                {
+                  "Type": "Shipping"
+                }
+              ],
+              "CountryMapper": "COUNTRY_MAPPER",
+              "AdditionalParams": {
+                "CountryMapper": "COUNTRY_MAPPER",
+                "AdditionalNumber": "$$$ORDER_ID$$$",
+                "ExternalUniqueIdentifier": "$$$ORDER_NUMBER$$$",
+                "SourceDocumentType": "",
+                "SourceDocumentNumberExtractor": ""
+              }
+            }
+          },
+          {
+            "Type": "DancerkaOrderModification",
+            "Params": {}
+          },
+          {
+            "Type": "SaveDocument",
+            "Params": {}
+          }
+        ]
+      }
+    },
+    "PostavkaExtractors": {
+      "COMPOSITE_MAPPER": {
+        "Type": "CompositeMapper"
+
+      }
+    },
+    "CountryMappers": {
+      "COUNTRY_MAPPER": {
+        "Type": "WooToBiroCountryMapper"
+      }
+    }
+  }
+}

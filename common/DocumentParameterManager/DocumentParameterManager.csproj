@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+
+		<!-- The 3 lines after Version tag are very important so that you are able to retrieve the version through reflection in this program! -->
+		<Version>1.0.1</Version>
+		<AssemblyVersion>$(Version)</AssemblyVersion>
+		<FileVersion>$(Version)</FileVersion>
+		<InformationalVersion>$(Version)</InformationalVersion>
+
+		<DebugType>portable</DebugType>
+		<IncludeSymbols>true</IncludeSymbols>
+		<IncludeSource>true</IncludeSource>
+
+		<Authors>Birokrat</Authors>
+		<Company>Birokrat</Company>
+		<PackageId>DocumentParameterManager</PackageId>
+		<Title>DocumentParameterManager</Title>
+		<Description>DocumentParameterManager</Description>
+		<PackageTags>DocumentParameterManager</PackageTags>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiClient.utils\ApiClient.utils.csproj" />
+  </ItemGroup>
+
+</Project>

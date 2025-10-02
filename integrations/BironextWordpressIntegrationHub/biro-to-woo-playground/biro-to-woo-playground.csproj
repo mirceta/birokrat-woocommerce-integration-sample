@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>biro_to_woo_playground</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\allintegrations\allintegrations.csproj" />
+    <ProjectReference Include="..\biro-to-woo-common\biro-to-woo-common.csproj" />
+    <ProjectReference Include="..\biro-to-woo\biro-to-woo-loop.csproj" />
+    <ProjectReference Include="..\common-woo\common-woo.csproj" />
+  </ItemGroup>
+
+</Project>

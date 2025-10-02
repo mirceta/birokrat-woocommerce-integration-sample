@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiClient\ApiClient.csproj" />
+    <ProjectReference Include="..\birowoo-exceptions\birowoo-exceptions.csproj" />
+    <ProjectReference Include="..\common-abstractions-std\common-abstractions-std.csproj" />
+    <ProjectReference Include="..\common-birowoo\common-birowoo.csproj" />
+    <ProjectReference Include="..\core_abstractions\core_abstractions.csproj" />
+    <ProjectReference Include="..\core_birokrat\core_birokrat.csproj" />
+    <ProjectReference Include="..\gui_attributes\gui_attributes.csproj" />
+    <ProjectReference Include="..\gui_inferable\gui_inferable.csproj" />
+    <ProjectReference Include="..\webshop_client_woocommerce\webshop_client_woocommerce.csproj" />
+  </ItemGroup>
+
+</Project>

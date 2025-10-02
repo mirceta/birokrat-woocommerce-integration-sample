@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>biro_to_woo_common</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="executor\validation\validation_stages\change_trackers\composite\**" />
+    <EmbeddedResource Remove="executor\validation\validation_stages\change_trackers\composite\**" />
+    <None Remove="executor\validation\validation_stages\change_trackers\composite\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\common-abstractions-core\common-abstractions-core.csproj" />
+    <ProjectReference Include="..\core\core.csproj" />
+    <ProjectReference Include="..\transfer_data\transfer_data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="change_trackers\differential\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "gui_generator_runner": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56299;http://localhost:56300"
+    }
+  }
+}

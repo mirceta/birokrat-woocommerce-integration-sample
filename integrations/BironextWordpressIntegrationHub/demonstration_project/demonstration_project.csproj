@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\common\ApiClient.utils\ApiClient.utils.csproj" />
+    <ProjectReference Include="..\allintegrations-factories\allintegrations-factories.csproj" />
+    <ProjectReference Include="..\ApiClient\ApiClient.csproj" />
+    <ProjectReference Include="..\biro-to-woo-common\biro-to-woo-common.csproj" />
+    <ProjectReference Include="..\transfer_data\transfer_data.csproj" />
+    <ProjectReference Include="..\webshop_client_abstractions\webshop_client_abstractions.csproj" />
+    <ProjectReference Include="..\webshop_client_woocommerce\webshop_client_woocommerce.csproj" />
+    <ProjectReference Include="..\wpplugingen\wpplugingen.csproj" />
+  </ItemGroup>
+
+</Project>

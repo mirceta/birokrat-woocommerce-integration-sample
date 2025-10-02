@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\administration_data\administration_data.csproj" />
+    <ProjectReference Include="..\gui_generator\gui_generator.csproj" />
+    <ProjectReference Include="..\gui_inferable\gui_inferable.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+$databases = 'biro78170915-KRATEK', 'biro78170915-SINHRO', 'biro78170915-01#J';
+$local_server = 'VMVUCKO\MSSQLSERVER2';
+$remote_server = 'VMBIROBAZURE';
+$remote_server_winauth = $TRUE;
+$local_path = 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER2\MSSQL\Backup';
+$shared_path = '\\vmbirobazure\Birokrat\dbback';
+$user = 'vucko';
+$password = 'fikuspikus';
+$mode = 'before-start-recording';

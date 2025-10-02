@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\core_abstractions\core_abstractions.csproj" />
+    <ProjectReference Include="..\transfer_data_structs\transfer_data_structs.csproj" />
+  </ItemGroup>
+
+</Project>

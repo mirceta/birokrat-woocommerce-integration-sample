@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>tests_fixed_exec</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\common\common-multithreading\common_multithreading.csproj" />
+    <ProjectReference Include="..\administration_data\administration_data.csproj" />
+    <ProjectReference Include="..\allintegrations\allintegrations.csproj" />
+    <ProjectReference Include="..\core\core.csproj" />
+    <ProjectReference Include="..\gui_generator_integs\gui_generator_integs.csproj" />
+    <ProjectReference Include="..\integration_source_prep\integration_source_prep.csproj" />
+    <ProjectReference Include="..\tests-abstractions\tests-abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

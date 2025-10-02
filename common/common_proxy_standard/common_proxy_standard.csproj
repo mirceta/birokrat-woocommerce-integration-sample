@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>si.birokrat.next.common_proxy_standard</RootNamespace>
+    <Company>Birokrat</Company>
+    <Product>si.birokrat.next.common_proxy_standard</Product>
+  </PropertyGroup>
+
+</Project>

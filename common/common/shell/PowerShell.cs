@@ -1,0 +1,27 @@
+namespace si.birokrat.next.common.shell {
+    public static class PowerShell {
+        public const string FILENAME = "powershell";
+
+        public static string Execute(string command, bool administrator = false, string workingDirectory = "") {
+            return ShellUtils.Execute(FILENAME, command, administrator, workingDirectory);
+        }
+
+        public static string ExecuteAndReturnResult(string command, bool administrator = false) {
+            return ShellUtils.ExecuteAndReturnResult(FILENAME, command, administrator);
+        }
+
+        public static void ExecuteInBackground(string command, bool administrator = false, bool waitForExit = false, string workingDirectory = "") {
+            ShellUtils.ExecuteInBackground(FILENAME, command, administrator, waitForExit, workingDirectory);
+        }
+
+        public static string Execute(string command, out int id, bool administrator = false, string workingDirectory = "") {
+            return ShellUtils.ExecutePID(FILENAME, command, administrator, workingDirectory, out id);
+        }
+
+        public static void ExecuteInBackgroundPID(string command, out int id, bool administrator = false, bool waitForExit = false, string workingDirectory = "") {
+            ShellUtils.ExecuteInBackgroundPID(FILENAME, command, administrator, waitForExit, workingDirectory, out id);
+        }
+    }
+}
+
+

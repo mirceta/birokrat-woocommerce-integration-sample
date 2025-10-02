@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WooCommerceNET" Version="0.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\common\common_python\common_python.csproj" />
+    <ProjectReference Include="..\ApiClient\ApiClient.csproj" />
+    <ProjectReference Include="..\birowoo-exceptions\birowoo-exceptions.csproj" />
+    <ProjectReference Include="..\common-abstractions-core\common-abstractions-core.csproj" />
+    <ProjectReference Include="..\common-abstractions-std\common-abstractions-std.csproj" />
+    <ProjectReference Include="..\common-birowoo\common-birowoo.csproj" />
+    <ProjectReference Include="..\webshop_client_abstractions\webshop_client_abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
